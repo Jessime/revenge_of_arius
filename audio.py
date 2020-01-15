@@ -1,4 +1,4 @@
-import pygame, winsound
+import pygame #, winsound
 
 def skip():
     while pygame.mixer.music.get_busy():
@@ -10,7 +10,7 @@ def skip():
 
 def tutorial():
     #pygame.event.pump
-    
+
     tut_pics = []
     for i in range(19):
         tut_pics.append(pygame.image.load("tut"+str(i+1)+".png"))
@@ -25,7 +25,7 @@ def tutorial():
         pygame.mixer.music.load("audio"+str(i+6)+".wav")
         pygame.mixer.music.play(0, 0)
         skip()
-    
+
         #winsound.PlaySound("audio"+str(i)+".wav", winsound.SND_FILENAME)
 ####
 ####    screen.blit(tut_pics[0], [0,0])
