@@ -1,4 +1,4 @@
-# Revenge of Arius
+# Revenge of Arius (Summer, 2014)
 
 My first coding project.
 
